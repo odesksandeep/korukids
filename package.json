@@ -2,7 +2,7 @@
   "name": "koru-kids-paternity-league",
   "version": "1.0.0",
   "description": "Hi!",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "build": "gulp build",
     "start": "gulp",
