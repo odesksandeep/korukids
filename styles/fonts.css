@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Circular Std';
+  font-weight: 400;
+  font-display: auto;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/CircularStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  font-weight: 450;
+  font-display: auto;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/CircularStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  font-weight: 700;
+  font-display: auto;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/CircularStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ATC Abernathy';
+  font-weight: 300;
+  font-display: auto;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/ATCAbernathy-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ATC Abernathy';
+  font-weight: 400;
+  font-display: auto;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/ATCAbernathy-Regular.otf") format("opentype");
+}
+
+.text-h1 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-h2 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text-bold-body {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-button {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.text-small-copy {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text-info-copy {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.text-medium-title {
+  font-family: 'ATC Abernathy';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.text-big-title {
+  font-family: 'ATC Abernathy';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (min-width: 576px) {
+  .text-big-title {
+    font-size: 31px;
+    line-height: 37px;
+  }
+}
