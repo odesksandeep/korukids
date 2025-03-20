@@ -1,44 +1,439 @@
 Glassdoor ranking,Paternity League ranking,Paternity League ranking ARROW,Company,Total leave period (weeks),Rate of pay,Rate of pay ranking,Leave offered ranking,Paternity Pay Score,Industry
-24,1,up,Diageo,52,100% salary for 26 weeks,1,1,Gold,ABC
-16,2,up,Zurich Insurance,52,100% salary for 16 weeks,2,1,Gold,ABC
-40,3,up,Fidelity International,26,100% salary,3,2,Gold,ABC
-47,4,up,Mars,26,90% salary,4,2,Gold,ABC
-8,5,up,VMware,18,100% salary,5,4,Silver,ABC
-18,6,up,Google,18,100% salary,5,4,Silver,ABC
-20,7,up,Wise,18,100% salary ,5,4,Silver,ABC
-10,8,up,Meta,16,100% salary,6,5,Silver,ABC
-14,9,up,Mastercard,16,100% salary,6,5,Silver,ABC
-49,10,up,O2,14,100% salary,7,6,Silver,ABC
-41,11,up,S&P Global,20,Statutory rate assumed,11,3,Bronze,ABC
-45,12,up,Marriott International,14,"100% for 2 weeks 
-reduced pay for 12 weeks",8,6,Silver,ABC
-1,13,down,ServiceNow,12,100% salary,9,7,Silver,ABC
-6,14,down,McKinsey & Company,12,100% salary,9,7,Silver,ABC
-13,15,down,Microsoft,12,100% salary,9,7,Silver,ABC
-27,16,up,Octopus Energy,12,100% salary,9,7,Silver,ABC
-17,17,none,Awin,8,100% salary,10,8,Bronze,ABC
-22,18,up,BCG,8,100% salary ,10,8,Bronze,ABC
-37,19,up,The Lego Group,8,100% salary ,10,8,Bronze,ABC
-44,20,up,Proctor & Gamble,8,100% salary,10,8,Bronze,ABC
-5,21,down,Abcam,6,100% salary,12,9,Bronze,DEF
-23,22,up,Apple,6,100% salary,12,9,Bronze,DEF
-3,23,down,Salesforce,12,Statutory rate assumed,14,7,Bronze,DEF
-7,24,down,Adobe,4,100% salary,13,10,Bronze,DEF
-39,25,up,Johnson & Johnson,8,Statutory rate assumed,16,8,Bronze,DEF
-9,26,down,Arm,8,Statutory rate assumed,16,8,Bronze,DEF
-31,27,up,Softcat,3,90% salary,15,11,Bronze,DEF
-4,28,down,Immediate Media Company,4,"100% for 2 weeks 
-statutory for 2 weeks",17,10,Bronze,GHI
-11,29,down,Novuna,2,100% salary,18,12,Bronze,GHI
-29,30,down,Barratt Developments,2,100% salary,18,12,Bronze,GHI
-30,31,down,Sky Betting & Gaming,2,100% salary,18,12,Bronze,GHI
-32,32,none,Cisco Systems,2,100% salary,18,12,Bronze,GHI
-38,33,up,Kainos,2,100% salary,18,12,Bronze,GHI
-15,34,down,Dell Technologies,2,Statutory rate,19,12,Bronze,GHI
-26,35,down,Oliver Bonas,2,Statutory rate,19,12,Bronze,JKL
-33,36,down,Sage,2,Statutory rate,19,12,Bronze,JKL
-50,37,up,MBDA,2,Statutory rate assumed,19,12,Bronze,JKL
-42,38,up,Ford Motor Company,2,Statutory rate,19,12,Bronze,JKL
-43,39,up,Jet2.com,2,Statutory rate,19,12,Bronze,JKL
-46,40,up,Capgemini Invent,2,Statutory rate,19,12,Bronze,JKL
-48,41,up,Mott Macdonald,2,Statutory rate,19,12,Bronze,JKL
+,1,,M and G,52,100% salary,1,1,Gold,Finance
+,2,,University of the Arts London,52,100% salary,2,2,Gold,Education
+,3,,BBC,52,"*Progressive pay structure (starts at full pay, and gets lower)",3,3,Gold,Media
+,4,,Bain & Company,52,*First 29 weeks at full pay,4,4,Gold,Consulting
+,5,,AVIVA,52,*First 26 weeks at full pay,5,5,Gold,Finance
+,6,,Diageo,52,100% salary for 26 weeks,6,6,Gold,Consumer Goods
+,7,,Unicef UK,52,90% salary,336,8,Gold,Non-profit
+,8,,Manifest,52,90% salary,337,9,Gold,Marketing
+,9,,abrdn,40,100% salary,7,11,Gold,Finance
+,10,,Finimize,38,100% salary,8,13,Gold,Finance
+,11,,Natwest,39,*The first 24 weeks are paid at full salary. The next 15 weeks are paid at the statutory maternity/adoption pay rate. The remaining weeks up to 52 are unpaid.,9,12,Gold,Finance
+,12,,Accenture,30,100% salary,10,14,Silver,Consulting
+,13,,Edrington,30,100% salary,11,15,Silver,Consumer Goods
+,14,,Ashurst,26,100% salary,12,16,Silver,Legal
+,15,,Baring,26,100% salary,13,17,Silver,Finance
+,16,,British Land,26,100% salary,14,18,Silver,Real Estate
+,17,,Childrens Investment fund foundation,26,100% salary,15,19,Silver,Non-profit
+,18,,Ferring Pharmaceuticals,26,100% salary,16,20,Silver,Healthcare
+,19,,Fidelity International,26,100% salary,17,21,Silver,Finance
+,20,,FSCS,26,100% salary,18,22,Silver,Finance
+,21,,Goldman Sachs,26,100% salary,19,23,Silver,Finance
+,22,,Havas helia,26,100% salary,20,24,Silver,Marketing
+,23,,Knight Frank,26,100% salary,21,25,Silver,Real Estate
+,24,,LGT Wealth Management,26,100% salary,22,26,Silver,Finance
+,25,,MOD,26,100% salary,23,27,Silver,Government
+,26,,Novartis,26,100% salary,24,28,Silver,Healthcare
+,27,,Oliver Wyman,26,100% salary,25,29,Silver,Consulting
+,28,,Phoenix Group,26,100% salary,26,30,Silver,Finance
+,29,,S&P Global,26,100% salary,27,31,Silver,Finance
+,30,,Satellite Applications Catapult,52,50% salary,435,10,Silver,Technology
+,31,,Starbucks EMEA Ltd,26,100% salary,28,32,Silver,Consumer Goods
+,32,,The Phoenix Group,26,100% salary,29,33,Silver,Finance
+,33,,Penguin Random House,25,100% salary,30,36,Silver,Media
+,34,,JLL,24,100% salary,31,37,Silver,Real Estate
+,35,,Mars,26,90% salary,338,34,Silver,Consumer Goods
+,36,,Booking.com,22,100% salary,32,38,Silver,Travel
+,37,,Financial Times,20,100% salary,33,39,Silver,Media
+,38,,Hodge,20,100% salary,34,40,Silver,Finance
+,39,,UBS,20,100% salary,35,41,Silver,Finance
+,40,,National Portrait Gallery,19,100% salary,36,42,Silver,Heritage
+,41,,Accurx,18,100% salary,37,43,Silver,Healthcare
+,42,,Burberry,18,100% salary,38,44,Silver,Consumer Goods
+,43,,Depop,18,100% salary,39,45,Silver,Retail
+,44,,Google,18,100% salary,40,46,Silver,Technology
+,45,,VMware,18,100% salary,41,47,Silver,Technology
+,46,,Wise,18,100% salary ,42,48,Silver,Finance
+,47,,1Password,16,100% salary,43,49,Bronze,Technology
+,48,,BCB Group,16,100% salary,44,50,Bronze,Finance
+,49,,Brink,16,100% salary,45,51,Bronze,Technology
+,50,,Elliptic,16,100% salary,46,52,Bronze,Technology
+,51,,Hopin,16,100% salary,47,53,Bronze,Technology
+,52,,Mastercard,16,100% salary,48,54,Bronze,Finance
+,53,,Meta,16,100% salary,49,55,Bronze,Technology
+,54,,National Institutions of the Church of England,16,100% salary,50,56,Bronze,Religion
+,55,,NVIDIA,16,100% salary,51,57,Bronze,Technology
+,56,,Powderhound,16,100% salary,52,58,Bronze,Retail
+,57,,Rasa,16,100% salary,53,59,Bronze,Technology
+,58,,Spirax Sarco Engineering,16,100% salary,54,60,Bronze,Engineering
+,59,,Unmade,16,100% salary,55,61,Bronze,Technology
+,60,,Vodafone,16,100% salary,56,62,Bronze,Telecommunications
+,61,,Zurich Insurance,52,100% salary for 16 weeks,57,7,Bronze,Finance
+,62,,John Lewis,14,100% salary,58,63,Bronze,Retail
+,63,,O2,14,100% salary,59,64,Bronze,Telecommunications
+,64,,Virgin Media O2,14,100% salary,60,65,Bronze,Telecommunications
+,65,,Direct line group,26,50% salary,436,35,Bronze,Finance
+,66,,Monzo Bank,13,100% salary,61,67,Bronze,Finance
+,67,,Restless Development,13,100% salary,62,68,Bronze,Non-profit
+,68,,Marriott International,14,"100% for 2 weeks 
+reduced pay for 12 weeks",63,66,Bronze,Hospitality
+,69,,acme,12,100% salary,64,69,Bronze,Consumer Goods
+,70,,Align Strategy,12,100% salary,65,70,Bronze,Consulting
+,71,,Allen & Overy,12,100% salary,66,71,Bronze,Legal
+,72,,Arcadis,12,100% salary,67,72,Bronze,Engineering
+,73,,Birdie,12,100% salary,68,73,Bronze,Technology
+,74,,Expedia,12,100% salary,69,74,Bronze,Travel
+,75,,Farewill,12,100% salary,70,75,Bronze,Legal
+,76,,Freshfields Bruckhaus Deringer,12,100% salary,71,76,Bronze,Legal
+,77,,Gate One,12,100% salary,72,77,Bronze,Consulting
+,78,,Kilburn & Strode LLP,12,100% salary,73,78,Bronze,Legal
+,79,,McKinsey & Company,12,100% salary,74,79,Bronze,Consulting
+,80,,Microsoft,12,100% salary,75,80,Bronze,Technology
+,81,,Octopus Energy,12,100% salary,76,81,Bronze,Energy
+,82,,Peakon,12,100% salary,77,82,Bronze,Technology
+,83,,Privitar,12,100% salary,78,83,Bronze,Technology
+,84,,ServiceNow,12,100% salary,79,84,Bronze,Technology
+,85,,Sonatype,12,100% salary,80,85,Bronze,Technology
+,86,,Sourceful,12,100% salary,81,86,Bronze,Procurement
+,87,,Truelayer,12,100% salary,82,87,Bronze,Finance
+,88,,Unilever,12,100% salary,83,88,Bronze,Consumer Goods
+,89,,Unitary,12,100% salary,84,89,Bronze,Technology
+,90,,Unmind,12,100% salary,85,90,Bronze,Healthcare
+,91,,Workday,12,100% salary,86,91,Bronze,Technology
+,92,,Human Nature HR,12,90% salary,339,92,Bronze,Human Resources
+,93,,Salesforce,12,Statutory rate assumed,340,93,Bronze,Technology
+,94,,IVC Evidensia,10,100% salary,87,94,Bronze,Healthcare
+,95,,Oracle,10,100% salary,88,95,Bronze,Technology
+,96,,Techspace,10,100% salary,89,96,Bronze,Real Estate
+,97,,Vet-AI,10,100% salary,90,97,Bronze,Healthcare
+,98,,Avanton Limited,9,100% salary,91,98,Bronze,Real Estate
+,99,,Awin,8,100% salary,92,99,Bronze,Marketing
+,100,,Axa,8,100% salary,93,100,Bronze,Finance
+,101,,BCG,8,100% salary ,94,101,Bronze,Consulting
+,102,,BP,8,100% salary,95,102,Bronze,Energy
+,103,,L.E.K. Consulting,8,100% salary,96,103,Bronze,Consulting
+,104,,Lego,8,100% salary,97,104,Bronze,Consumer Goods
+,105,,Proctor & Gamble,8,100% salary,98,105,Bronze,Consumer Goods
+,106,,Rsm,8,100% salary,99,106,Bronze,Accounting
+,107,,Taxi studio limited,8,100% salary,100,107,Bronze,Design
+,108,,The Lego Group,8,100% salary ,101,108,Bronze,Consumer Goods
+,109,,Wates Group,8,100% salary,102,109,Bronze,Construction
+,110,,Yahoo,8,100% salary,103,110,Bronze,Technology
+,111,,Zinc Work,8,100% salary,104,111,Bronze,Construction
+,112,,Arm,8,Statutory rate assumed,341,112,Bronze,Technology
+,113,,Johnson & Johnson,8,Statutory rate assumed,342,113,Bronze,Healthcare
+,114,,UPS,8,90% salary,343,114,Bronze,Logistics
+,115,,Wealthify,8,80% salary,432,115,Bronze,Finance
+,116,,Abcam,6,100% salary,105,116,Bronze,Healthcare
+,117,,Amazon,6,100% salary,106,117,Bronze,Retail
+,118,,Apple,6,100% salary,107,118,Bronze,Technology
+,119,,Asos,6,100% salary,108,119,Bronze,Retail
+,120,,AWS,6,100% salary,109,120,Bronze,Technology
+,121,,Butternut Box,6,100% salary,110,121,Bronze,Consumer Goods
+,122,,Cawston Press,6,100% salary,111,122,Bronze,Consumer Goods
+,123,,Decoded,6,100% salary,112,123,Bronze,Education
+,124,,Enfield council,6,100% salary,113,124,Bronze,Government
+,125,,Grant Thornton,6,100% salary,114,125,Bronze,Accounting
+,126,,GSK,6,100% salary,115,126,Bronze,Healthcare
+,127,,gwi,6,100% salary,116,127,Bronze,Market Research
+,128,,ITV,6,100% salary,117,128,Bronze,Media
+,129,,John Doe Group,6,100% salary,118,129,Bronze,Various
+,130,,JPMorgan Chase & Co,6,100% salary,119,130,Bronze,Finance
+,131,,Koru Kids,6,100% salary,120,131,Bronze,Childcare
+,132,,L'Oreal,6,100% salary,121,132,Bronze,Consumer Goods
+,133,,Lbg,6,100% salary,122,133,Bronze,Finance
+,134,,Lloyds banking group,6,100% salary,123,134,Bronze,Finance
+,135,,MyTutor,6,100% salary,124,135,Bronze,Education
+,136,,Nationwide Building Society,6,100% salary,125,136,Bronze,Finance
+,137,,NSPCC,6,100% salary,126,137,Bronze,Non-profit
+,138,,Palantir,6,100% salary,127,138,Bronze,Technology
+,139,,RGA,6,100% salary,128,139,Bronze,Finance
+,140,,RSA Insurance,6,100% salary,129,140,Bronze,Insurance
+,141,,Saragossa Ltd,6,100% salary,130,141,Bronze,Retail
+,142,,SearchPilot,6,100% salary,131,142,Bronze,Marketing
+,143,,St. Monica Trust,6,100% salary,132,143,Bronze,Non-profit
+,144,,The Romans,6,100% salary,133,144,Bronze,Marketing
+,145,,Vuture,6,100% salary,134,145,Bronze,Technology
+,146,,Dunelm,6,90% salary,344,146,Bronze,Retail
+,147,,Type A,6,90% salary,345,147,Bronze,Marketing
+,148,,Citizens UK,5,100% salary,135,149,Bronze,Non-profit
+,149,,CKO,5,100% salary,136,150,Bronze,Retail
+,150,,CPP Investments,5,100% salary,137,151,Bronze,Finance
+,151,,Factset,5,100% salary,138,152,Bronze,Finance
+,152,,LeSalon,5,100% salary,139,153,Bronze,Beauty
+,153,,SSE,5,100% salary,140,154,Bronze,Energy
+,154,,Acasus,4,100% salary,141,155,Bronze,Consulting
+,155,,Adobe,4,100% salary,142,156,Bronze,Technology
+,156,,Aldermore Bank,4,100% salary,143,157,Bronze,Finance
+,157,,Allianz Plc,4,100% salary,144,158,Bronze,Finance
+,158,,AlphaSights,4,100% salary,145,159,Bronze,Consulting
+,159,,ArtBase,4,100% salary,146,160,Bronze,Technology
+,160,,Born Social,4,100% salary,147,161,Bronze,Marketing
+,161,,Bramble Energy Ltd,4,100% salary,148,162,Bronze,Energy
+,162,,Bulletproof Design Ltd,4,100% salary,149,163,Bronze,Design
+,163,,CFC Underwriting,4,100% salary,150,164,Bronze,Finance
+,164,,Checkatrade,4,100% salary,151,165,Bronze,Technology
+,165,,Citigroup,4,100% salary,152,166,Bronze,Finance
+,166,,Copper.co,4,100% salary,153,167,Bronze,Finance
+,167,,Creative Assembly,4,100% salary,154,168,Bronze,Technology
+,168,,Cundall,4,100% salary,155,169,Bronze,Engineering
+,169,,Deliveroo,4,100% salary,156,170,Bronze,Logistics
+,170,,Deloitte,4,100% salary,157,171,Bronze,Consulting
+,171,,Ecosurety,4,100% salary,158,172,Bronze,Environmental Services
+,172,,EDF,4,100% salary,159,173,Bronze,Energy
+,173,,Finova,4,100% salary,160,174,Bronze,Finance
+,174,,Flooid,4,100% salary,161,175,Bronze,Technology
+,175,,Gentrack,4,100% salary,162,176,Bronze,Technology
+,176,,Gocompare,4,100% salary,163,177,Bronze,Finance
+,177,,Heights,4,100% salary,164,178,Bronze,Technology
+,178,,IBM,4,100% salary,165,179,Bronze,Technology
+,179,,Iris,4,100% salary,166,180,Bronze,Marketing
+,180,,Leigh Day,4,100% salary,167,181,Bronze,Legal
+,181,,LGIM,4,100% salary,168,182,Bronze,Finance
+,182,,Metro bank,4,100% salary,169,183,Bronze,Finance
+,183,,Motability Operations,4,100% salary,170,184,Bronze,Non-profit
+,184,,Nestle,4,100% salary,171,185,Bronze,Consumer Goods
+,185,,Octopus Investments,4,100% salary,172,186,Bronze,Finance
+,186,,Ovo energy,4,100% salary,173,187,Bronze,Energy
+,187,,Pearson,4,100% salary,174,188,Bronze,Education
+,188,,PwC,4,100% salary,175,189,Bronze,Accounting
+,189,,Roli,4,100% salary,176,190,Bronze,Technology
+,190,,Royal London,4,100% salary,177,191,Bronze,Finance
+,191,,Sainsbury's,4,100% salary,178,192,Bronze,Retail
+,192,,Samsung Electronics,4,100% salary,179,193,Bronze,Technology
+,193,,SAP Fioneer,4,100% salary,180,194,Bronze,Technology
+,194,,Schroders,4,100% salary,181,195,Bronze,Finance
+,195,,ScienceMagic,4,100% salary,182,196,Bronze,Consulting
+,196,,slalom,4,100% salary,183,197,Bronze,Consulting
+,197,,Tesco,4,100% salary,184,198,Bronze,Retail
+,198,,Tesco Bank,4,100% salary,185,199,Bronze,Finance
+,199,,The Carbon Trust,4,100% salary,186,200,Bronze,Environmental Services
+,200,,Unite the union,4,100% salary,187,201,Bronze,Labor Union
+,201,,University of Portsmouth Students' Union,4,100% salary,188,202,Bronze,Education
+,202,,Wazoku,4,100% salary,189,203,Bronze,Technology
+,203,,Immediate Media Company,4,"100% for 2 weeks 
+statutory for 2 weeks",190,204,Bronze,Media
+,204,,Vantage Data Centers,6,60% salary,434,148,Bronze,Technology
+,205,,Amgen,3,100% salary,191,206,Bronze,Healthcare
+,206,,Palace capital,3,100% salary,192,207,Bronze,Finance
+,207,,Percent,3,100% salary,193,208,Bronze,Finance
+,208,,The Walt Disney Company,3,100% salary,194,209,Bronze,Media
+,209,,AvePoint,4,70% salary,433,205,Bronze,Technology
+,210,,Softcat,3,90% salary,346,210,Bronze,Technology
+,211,,17Capital,2,100% salary,195,211,Bronze,Finance
+,212,,24Haymarket,2,100% salary,196,212,Bronze,Finance
+,213,,ADP,2,100% salary,197,213,Bronze,Technology
+,214,,AIG,2,100% salary,198,214,Bronze,Finance
+,215,,Alliance Medical,2,100% salary,199,215,Bronze,Healthcare
+,216,,Amphenol Advanced Sensors,2,100% salary,200,216,Bronze,Manufacturing
+,217,,Amplifon ltd,2,100% salary,201,217,Bronze,Healthcare
+,218,,Amwins Global Risks,2,100% salary,202,218,Bronze,Finance
+,219,,Aon,2,100% salary,203,219,Bronze,Finance
+,220,,AstraZeneca,2,100% salary,204,220,Bronze,Healthcare
+,221,,Autodesk,2,100% salary,205,221,Bronze,Technology
+,222,,Bam Nuttall Ltd,2,100% salary,206,222,Bronze,Construction
+,223,,Barclays,2,100% salary,207,223,Bronze,Finance
+,224,,Barratt Developments,2,100% salary,208,224,Bronze,Real Estate
+,225,,BDO LLP,2,100% salary,209,225,Bronze,Accounting
+,226,,Berkeley Partnership,2,100% salary,210,226,Bronze,Consulting
+,227,,Bowmer & Kirkland Construction,2,100% salary,211,227,Bronze,Construction
+,228,,British Heart Foundation,2,100% salary,212,228,Bronze,Non-profit
+,229,,BT,2,100% salary,213,229,Bronze,Telecommunications
+,230,,Cadence Design Systems Limited,2,100% salary,214,230,Bronze,Technology
+,231,,Caledonia MacBrayne,2,100% salary,215,231,Bronze,Transportation
+,232,,Cancer Research UK,2,100% salary,216,232,Bronze,Non-profit
+,233,,Charles Tyrwhitt,2,100% salary,217,233,Bronze,Retail
+,234,,Cisco Systems,2,100% salary,218,234,Bronze,Technology
+,235,,Cognita,2,100% salary,219,235,Bronze,Education
+,236,,Conde Nast,2,100% salary,220,236,Bronze,Media
+,237,,Conrad Energy,2,100% salary,221,237,Bronze,Energy
+,238,,Consultant Connect Limited,2,100% salary,222,238,Bronze,Healthcare
+,239,,Control Risks,2,100% salary,223,239,Bronze,Security
+,240,,Coremont,2,100% salary,224,240,Bronze,Finance
+,241,,Credit Suisse,2,100% salary,225,241,Bronze,Finance
+,242,,Crestbridge,2,100% salary,226,242,Bronze,Finance
+,243,,CtM,2,100% salary,227,243,Bronze,Travel
+,244,,DAZN,2,100% salary,228,244,Bronze,Media
+,245,,Department for Environment Food and Rural Affairs,2,100% salary,229,245,Bronze,Government
+,246,,Department of education,2,100% salary,230,246,Bronze,Government
+,247,,e.surv,2,100% salary,231,247,Bronze,Construction
+,248,,Environment Agency,2,100% salary,232,248,Bronze,Government
+,249,,Eon,2,100% salary,233,249,Bronze,Energy
+,250,,Everun,2,100% salary,234,250,Bronze,Technology
+,251,,Experian,2,100% salary,235,251,Bronze,Finance
+,252,,GE Healthcare,2,100% salary,236,252,Bronze,Healthcare
+,253,,GL assessment,2,100% salary,237,253,Bronze,Education
+,254,,Global Payments,2,100% salary,238,254,Bronze,Finance
+,255,,Gowling WLG,2,100% salary,239,255,Bronze,Legal
+,256,,Handelsbanken,2,100% salary,240,256,Bronze,Finance
+,257,,Hanover Communications,2,100% salary,241,257,Bronze,Marketing
+,258,,Hertz,2,100% salary,242,258,Bronze,Transportation
+,259,,Hollyrood Distillery,2,100% salary,243,259,Bronze,Consumer Goods
+,260,,Hologic,2,100% salary,244,260,Bronze,Healthcare
+,261,,HSBC,2,100% salary,245,261,Bronze,Finance
+,262,,Jaguar Land Rover,2,100% salary,246,262,Bronze,Automotive
+,263,,JCDecaux,2,100% salary,247,263,Bronze,Advertising
+,264,,Kainos,2,100% salary,248,264,Bronze,Technology
+,265,,KPMG,2,100% salary,249,265,Bronze,Accounting
+,266,,Kraft Heinz,2,100% salary,250,266,Bronze,Consumer Goods
+,267,,Landsec,2,100% salary,251,267,Bronze,Real Estate
+,268,,Leonardo,2,100% salary,252,268,Bronze,Aerospace & Defense
+,269,,Leopold hotel,2,100% salary,253,269,Bronze,Hospitality
+,270,,Linnworks,2,100% salary,254,270,Bronze,Technology
+,271,,Llamau,2,100% salary,255,271,Bronze,Non-profit
+,272,,macmillan cancer support,2,100% salary,256,272,Bronze,Non-profit
+,273,,Madano,2,100% salary,257,273,Bronze,Marketing
+,274,,Marks and Spencer,2,100% salary,258,274,Bronze,Retail
+,275,,Miele,2,100% salary,259,275,Bronze,Consumer Goods
+,276,,Milestone Infrastructure Ltd,2,100% salary,260,276,Bronze,Construction
+,277,,Moody's Analytics,2,100% salary,261,277,Bronze,Finance
+,278,,Morrisons,2,100% salary,262,278,Bronze,Retail
+,279,,MTREL,2,100% salary,263,279,Bronze,Rail
+,280,,Natural Resources Wales,2,100% salary,264,280,Bronze,Government
+,281,,New Trade Media,2,100% salary,265,281,Bronze,Media
+,282,,NHS,2,100% salary,266,282,Bronze,Healthcare
+,283,,NHS Digital,2,100% salary,267,283,Bronze,Healthcare
+,284,,Novuna,2,100% salary,268,284,Bronze,Finance
+,285,,NST,2,100% salary,269,285,Bronze,Technology
+,286,,Nuffield Health,2,100% salary,270,286,Bronze,Healthcare
+,287,,Onestream,2,100% salary,271,287,Bronze,Technology
+,288,,Openreach,2,100% salary,272,288,Bronze,Telecommunications
+,289,,Pepco,2,100% salary,273,289,Bronze,Retail
+,290,,Perry Wood Primary school,2,100% salary,274,290,Bronze,Education
+,291,,Premier Foods,2,100% salary,275,291,Bronze,Consumer Goods
+,292,,PriceWaterhouseCooper,2,100% salary,276,292,Bronze,Accounting
+,293,,Qinetiq,2,100% salary,277,293,Bronze,Engineering
+,294,,Richemont,2,100% salary,278,294,Bronze,Consumer Goods
+,295,,Rolls-Royce Plc,2,100% salary,279,295,Bronze,Engineering
+,296,,Royal Mail,2,100% salary,280,296,Bronze,Logistics
+,297,,Rps group,2,100% salary,281,297,Bronze,Consulting
+,298,,Sabio,2,100% salary,282,298,Bronze,Technology
+,299,,Savills,2,100% salary,283,299,Bronze,Real Estate
+,300,,Saxo,2,100% salary,284,300,Bronze,Finance
+,301,,Shell,2,100% salary,285,301,Bronze,Energy
+,302,,Siemens energy,2,100% salary,286,302,Bronze,Energy
+,303,,Sky Betting & Gaming,2,100% salary,287,303,Bronze,Leisure
+,304,,Social Finance,2,100% salary,288,304,Bronze,Finance
+,305,,Sony Interactive Entertainment,2,100% salary,289,305,Bronze,Technology
+,306,,Staffordshire Police,2,100% salary,290,306,Bronze,Government
+,307,,Swift group,2,100% salary,291,307,Bronze,Leisure
+,308,,Syndigo,2,100% salary,292,308,Bronze,Technology
+,309,,Syngenta,2,100% salary,293,309,Bronze,Agriculture
+,310,,SYSTRA Ltd,2,100% salary,294,310,Bronze,Engineering
+,311,,Sytner,2,100% salary,295,311,Bronze,Automotive
+,312,,Teach First,2,100% salary,296,312,Bronze,Education
+,313,,Thales UK Ltd.,2,100% salary,297,313,Bronze,Aerospace & Defense
+,314,,Thames water,2,100% salary,298,314,Bronze,Utilities
+,315,,The Natural History Museum,2,100% salary,299,315,Bronze,Heritage
+,316,,The White Company,2,100% salary,300,316,Bronze,Retail
+,317,,Thrive Childcare,2,100% salary,301,317,Bronze,Childcare
+,318,,Transport for London,2,100% salary,302,318,Bronze,Government
+,319,,TRGT Digital,2,100% salary,303,319,Bronze,Marketing
+,320,,United Utilities,2,100% salary,304,320,Bronze,Utilities
+,321,,University of Dundee,2,100% salary,305,321,Bronze,Education
+,322,,University of Nottingham,2,100% salary,306,322,Bronze,Education
+,323,,University of oxford,2,100% salary,307,323,Bronze,Education
+,324,,Vectura,2,100% salary,308,324,Bronze,Healthcare
+,325,,Vue,2,100% salary,309,325,Bronze,Leisure
+,326,,Wayfair,2,100% salary,310,326,Bronze,Retail
+,327,,Wickes,2,100% salary,311,327,Bronze,Retail
+,328,,Williams F1,2,100% salary,312,328,Bronze,Automotive
+,329,,Willis Towers Watson,2,100% salary,313,329,Bronze,Finance
+,330,,Wipro,2,100% salary,314,330,Bronze,Technology
+,331,,Woking college,2,100% salary,315,331,Bronze,Education
+,332,,Wolters Kluwer,2,100% salary,316,332,Bronze,Information
+,333,,WTW,2,100% salary,317,333,Bronze,Finance
+,334,,Yapily,2,100% salary,318,334,Bronze,Finance
+,335,,zipcar,2,100% salary,319,335,Bronze,Transportation
+,336,,Historic Royal Palaces,2,100% salary,320,336,Bronze,Heritage
+,337,,Metropolitan Police,2,"*The first week of paternity leave is paid at full salary, while the second week is paid at the statutory rate.",321,337,Bronze,Government
+,338,,National highways,2,"*The first week of paternity leave is paid at full salary, while the second week is paid at the statutory rate.",322,338,Bronze,Government
+,339,,Adidas,2,90% salary,347,339,Bronze,Consumer Goods
+,340,,Aldi,2,90% salary,348,340,Bronze,Retail
+,341,,Amentum UK Ltd,2,90% salary,349,341,Bronze,Engineering
+,342,,AND Digital,2,90% salary,350,342,Bronze,Consulting
+,343,,Anglo American,2,90% salary,351,343,Bronze,Mining
+,344,,Apex Training Ltd,2,90% salary,352,344,Bronze,Education
+,345,,ARRK,2,90% salary,353,345,Bronze,Marketing
+,346,,Artlogic,2,90% salary,354,346,Bronze,Technology
+,347,,Asahi UK,2,90% salary,355,347,Bronze,Consumer Goods
+,348,,AsiaLink,2,90% salary,356,348,Bronze,Logistics
+,349,,Birmingham City council,2,90% salary,357,349,Bronze,Government
+,350,,BJSS,2,90% salary,358,350,Bronze,Technology
+,351,,Bluebella,2,90% salary,359,351,Bronze,Retail
+,352,,Bvs,2,90% salary,360,352,Bronze,Retail
+,353,,Capgemini Invent,2,Statutory rate,361,353,Bronze,Consulting
+,354,,CBRE Managed Services LTD,2,90% salary,362,354,Bronze,Real Estate
+,355,,Cityfibre,2,90% salary,363,355,Bronze,Telecommunications
+,356,,Coop,2,90% salary,364,356,Bronze,Retail
+,357,,Dell Technologies,2,Statutory rate,365,357,Bronze,Technology
+,358,,Department of Work & Pensions (DWP),2,90% salary,366,358,Bronze,Government
+,359,,Eaton house schools,2,90% salary,367,359,Bronze,Education
+,360,,Element,2,90% salary,368,360,Bronze,Testing & Certification
+,361,,First ram,2,90% salary,369,361,Bronze,Logistics
+,362,,Ford Motor Company,2,Statutory rate,370,362,Bronze,Automotive
+,363,,Gensler,2,90% salary,371,363,Bronze,Design
+,364,,Gist Limited,2,90% salary,372,364,Bronze,Logistics
+,365,,Globaldata,2,90% salary,373,365,Bronze,Information
+,366,,Green Park,2,90% salary,374,366,Bronze,Consulting
+,367,,Greggs,2,90% salary,375,367,Bronze,Consumer Goods
+,368,,Heaven media,2,90% salary,376,368,Bronze,Media
+,369,,Hemsley Orrell Partnership,2,90% salary,377,369,Bronze,Architecture
+,370,,Hilton Worldwide,2,90% salary,378,370,Bronze,Hospitality
+,371,,HMPO,2,90% salary,379,371,Bronze,Government
+,372,,Hygiena International Ltd,2,90% salary,380,372,Bronze,Healthcare
+,373,,INPS Ltd,2,90% salary,381,373,Bronze,Technology
+,374,,Isg ltd,2,90% salary,382,374,Bronze,Construction
+,375,,Jet2.com,2,Statutory rate,383,375,Bronze,Travel
+,376,,Linnaeus Veterinary,2,90% salary,384,376,Bronze,Healthcare
+,377,,Majestic Wine,2,90% salary,385,377,Bronze,Retail
+,378,,MBDA,2,Statutory rate assumed,386,378,Bronze,Aerospace & Defense
+,379,,McLaren Automotive,2,90% salary,387,379,Bronze,Automotive
+,380,,MEL Groups,2,90% salary,388,380,Bronze,Various
+,381,,Mindshare,2,90% salary,389,381,Bronze,Marketing
+,382,,Mitchell & butlers,2,90% salary,390,382,Bronze,Hospitality
+,383,,Morrison water services,2,90% salary,391,383,Bronze,Utilities
+,384,,Mott Macdonald,2,Statutory rate,392,384,Bronze,Engineering
+,385,,Niche drinks,2,90% salary,393,385,Bronze,Consumer Goods
+,386,,NIMDTA,2,90% salary,394,386,Bronze,Healthcare
+,387,,Notting Hill Prep,2,90% salary,395,387,Bronze,Education
+,388,,Oliver Bonas,2,Statutory rate,396,388,Bronze,Retail
+,389,,OPEN Health Group,2,90% salary,397,389,Bronze,Healthcare
+,390,,Phmg,2,90% salary,398,390,Bronze,Marketing
+,391,,Pilgrims masterfoods,2,90% salary,399,391,Bronze,Consumer Goods
+,392,,Prism Medical,2,90% salary,400,392,Bronze,Healthcare
+,393,,PureGym,2,90% salary,401,393,Bronze,Leisure
+,394,,Purplebricks,2,90% salary,402,394,Bronze,Real Estate
+,395,,Rekom,2,90% salary,403,395,Bronze,Hospitality
+,396,,Rotork,2,90% salary,404,396,Bronze,Engineering
+,397,,Royal haskoning,2,90% salary,405,397,Bronze,Engineering
+,398,,Sage,2,Statutory rate,406,398,Bronze,Technology
+,399,,Samara James,2,90% salary,407,399,Bronze,Retail
+,400,,Sedgwick,2,90% salary,408,400,Bronze,Insurance
+,401,,Select,2,90% salary,409,401,Bronze,Staffing
+,402,,Sigma sports,2,90% salary,410,402,Bronze,Retail
+,403,,South Western Railway,2,90% salary,411,403,Bronze,Transportation
+,404,,Specsavers,2,90% salary,412,404,Bronze,Healthcare
+,405,,Starlight Children's Foundation,2,90% salary,413,405,Bronze,Non-profit
+,406,,Stena Drilling,2,90% salary,414,406,Bronze,Energy
+,407,,Sunseeker,2,90% salary,415,407,Bronze,Consumer Goods
+,408,,The Priory Group,2,90% salary,416,408,Bronze,Healthcare
+,409,,Trailfinders,2,90% salary,417,409,Bronze,Travel
+,410,,Ulster University,2,90% salary,418,410,Bronze,Education
+,411,,University of Sheffield,2,90% salary,419,411,Bronze,Education
+,412,,Velcourt Ltd,2,90% salary,420,412,Bronze,Agriculture
+,413,,Verse group limited,2,90% salary,421,413,Bronze,Technology
+,414,,Vets4Pets,2,90% salary,422,414,Bronze,Healthcare
+,415,,We Seal,2,90% salary,423,415,Bronze,Manufacturing
+,416,,Wealden district council,2,90% salary,424,416,Bronze,Government
+,417,,Wilson James,2,90% salary,425,417,Bronze,Security
+,418,,Wolverhampton Wanderers,2,90% salary,426,418,Bronze,Leisure
+,419,,Wsp,2,90% salary,427,419,Bronze,Engineering
+,420,,Zaizi,2,90% salary,428,420,Bronze,Technology
+,421,,Animal Friends Insurance,1,100% salary,323,421,Bronze,Finance
+,422,,Bouyges,1,100% salary,324,422,Bronze,Construction
+,423,,Computacentre,1,100% salary,325,423,Bronze,Technology
+,424,,North Wales Police,1,100% salary,326,424,Bronze,Government
+,425,,Pebble Beach Systems,1,100% salary,327,425,Bronze,Technology
+,426,,Pentalver,1,100% salary,328,426,Bronze,Logistics
+,427,,Police Scotland,1,100% salary,329,427,Bronze,Government
+,428,,QA,1,100% salary,330,428,Bronze,Education
+,429,,St Helens Council,1,100% salary,331,429,Bronze,Government
+,430,,Thames Valley Police,1,100% salary,332,430,Bronze,Government
+,431,,the Support Group,1,100% salary,333,431,Bronze,Outsourcing
+,432,,Wigan Council,1,100% salary,334,432,Bronze,Government
+,433,,Four Seasons,1,100% salary,335,436,Bronze,Hospitality
+,434,,CCL Design,1,90% salary,429,433,Bronze,Design
+,435,,RGS Worcester,1,90% salary,430,434,Bronze,Education
+,436,,West Lothian Council,1,90% salary,431,435,Bronze,Government
